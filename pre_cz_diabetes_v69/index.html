@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tajemství Přírodního Elixíru: Vzácná Bylina z Českého Ráje Mění Boj s Cukrovkou!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9; /* Light green background */
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border-top: 8px solid #4caf50; /* Green top border */
+        }
+        .advertorial-bar {
+            background-color: #388e3c; /* Darker green */
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        h1 {
+            color: #2e7d32; /* Dark green */
+            font-size: 2.8em;
+            text-align: center;
+            margin-bottom: 20px;
+            line-height: 1.1;
+            font-weight: bold;
+        }
+        h2 {
+            color: #4caf50; /* Green */
+            font-size: 1.9em;
+            margin-top: 35px;
+            font-weight: bold;
+            border-bottom: 2px solid #81c784;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 18px;
+            color: #444;
+        }
+        .highlight {
+            background-color: #c8e6c9;
+            padding: 3px 7px;
+            font-weight: bold;
+            color: #2e7d32;
+            border-radius: 3px;
+        }
+        .image-link {
+            display: block;
+            text-align: center;
+            margin: 30px 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image-link:hover {
+            transform: scale(1.01);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .hero-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border: 4px dashed #32cd32; /* LimeGreen dashed border */
+            border-radius: 6px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        .cta-button {
+            display: block;
+            width: 90%;
+            max-width: 600px;
+            margin: 35px auto;
+            padding: 20px 25px;
+            background-color: #ffb300; /* Amber */
+            color: #333;
+            text-decoration: none;
+            font-size: 1.5em;
+            font-weight: bold;
+            border-radius: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            box-shadow: 0 5px 15px rgba(255, 179, 0, 0.4);
+            transition: all 0.3s ease;
+            letter-spacing: 1px;
+            animation: pulse 2.2s infinite;
+        }
+        .cta-button:hover {
+            background-color: #ffa000;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 18px rgba(255, 160, 0, 0.6);
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+        .author-box {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .footer {
+            background-color: #212121;
+            color: #bdbdbd;
+            text-align: center;
+            padding: 45px 20px;
+            font-size: 0.85em;
+            margin-top: 50px;
+        }
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .disclaimer-box {
+            border: 1px solid #424242;
+            padding: 20px;
+            margin-bottom: 25px;
+            text-align: justify;
+            font-size: 0.8em;
+            line-height: 1.4;
+            background-color: #303030;
+            color: #e0e0e0;
+            border-radius: 5px;
+        }
+        .footer a {
+            color: #ffb300;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+            color: #ffa000;
+        }
+        .company-info {
+            margin-top: 25px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 15px;
+                padding: 25px;
+            }
+            h1 {
+                font-size: 2.2em;
+            }
+            h2 {
+                font-size: 1.6em;
+            }
+            .cta-button {
+                font-size: 1.2em;
+                padding: 15px 20px;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                margin: 0;
+                padding: 15px;
+                border-radius: 0;
+                border-top: none;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.4em;
+            }
+            p {
+                font-size: 1em;
+            }
+            .cta-button {
+                font-size: 1em;
+                padding: 12px 15px;
+                border-radius: 30px;
+            }
+        }
+    </style>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+    new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+    "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,"script","dataLayer","GTM-XXXXXXX");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version="2.0";
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,"script",
+    "https://connect.facebook.net/en_US/fbevents.js");
+    fbq("init", "YOUR_PIXEL_ID");
+    fbq("track", "PageView");
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+    <div class="advertorial-bar">
+        ADVERTORIAL | SPONZOROVANÝ OBSAH
+    </div>
+    
+    <div class="container">
+        <h1>Tajemství Přírodního Elixíru: Vzácná Bylina z Českého Ráje Mění Boj s Cukrovkou!</h1>
+        
+        <div class="author-box">
+            Exkluzivní Zpráva | Dnes Zveřejněno | Autor: Redakce Zdraví a Vitalita | Doba čtení: 8 minut
+        </div>
+
+        <p>Představte si, že by existovala <span class="highlight">vzácná bylina</span>, skrytá po staletí v malebných zákoutích Českého ráje, která drží klíč k přirozené kontrole cukrovky. Žádné složité diety, žádné nekonečné injekce. Jen čistá síla přírody. Pro tisíce Čechů se tento "zelený zázrak" stal realitou, a nyní je čas, abyste se o něm dozvěděli i Vy.</p>
+        
+        <a href="https://lp.thirtytwof.shop/preclick" class="cta-button">ODHALTE TAJEMSTVÍ TÉTO BYLINY</a>
+
+        <a href="https://lp.thirtytwof.shop/preclick" class="image-link">
+            <img src="./img/diabetes_hero_cz_v69.png" alt="Šťastný český pár s glukomerem ukazujícím 100 na Karlově mostě" class="hero-image">
+        </a>
+
+        <h2>Zapomenutý Poklad: Jak Vědci Objevili "Gluko-Bylinu"?</h2>
+        <p>Příběh začíná, když skupina etnobotaniků z Karlovy univerzity, studující staré české herbáře, narazila na zmínky o <span class="highlight">"Gluko-Bylině"</span> – rostlině, kterou staří Slované používali k udržení vitality a rovnováhy těla. Po letech výzkumu a testování se jim podařilo izolovat aktivní složku, která má neuvěřitelnou schopnost <span class="highlight">optimalizovat metabolismus cukru</span> a podporovat zdravou funkci slinivky břišní.</p>
+        
+        <p>Tato složka, pojmenovaná "Český Elixír", funguje jako přirozený katalyzátor, který pomáhá tělu efektivněji zpracovávat glukózu a zvyšovat citlivost buněk na inzulín. Není to žádná chemická látka, ale dar přírody, který byl znovu objeven pro moderní svět. Výsledky klinických studií byly ohromující a potvrdily to, co staří Slované věděli po staletí.</p>
+
+        <a href="https://lp.thirtytwof.shop/preclick" class="cta-button">ZJISTĚTE VÍCE O ČESKÉM ELIXÍRU</a>
+
+        <h2>Proč Je Tato Bylina Dnes Důležitější Než Kdy Jindy?</h2>
+        <p>V dnešní době, kdy je naše strava plná zpracovaných potravin a cukru, je potřeba přirozených řešení pro kontrolu cukrovky naléhavější než kdy jindy. "Gluko-Bylina" nabízí naději pro ty, kteří hledají <span class="highlight">bezpečný a efektivní způsob</span>, jak znovu získat kontrolu nad svým zdravím bez vedlejších účinků. Je to návrat k moudrosti našich předků, podpořený moderní vědou.</p>
+
+        <a href="https://lp.thirtytwof.shop/preclick" class="image-link">
+            <img src="./img/diabetes_mystery_cz_v69.png" alt="Vědecká ilustrace slinivky břišní a inzulínových klíčů s Pražským hradem v pozadí" class="hero-image">
+        </a>
+
+        <p>Nyní Vám přinášíme exkluzivní video, které odhaluje celý příběh "Gluko-Byliny" a ukazuje, jak můžete tento zapomenutý poklad využít k tomu, abyste znovu získali kontrolu nad svým zdravím. Nenechte si ujít tuto příležitost. Je čas žít život plný energie a bez omezení, která Vám cukrovka vnucuje.</p>
+
+        <a href="https://lp.thirtytwof.shop/preclick" class="cta-button">SLEDUJTE EXKLUZIVNÍ VIDEO</a>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="disclaimer-box">
+                <strong>DŮLEŽITÉ UPOZORNĚNÍ:</strong> Tato webová stránka není součástí Facebooku ani společnosti Facebook Inc. Kromě toho, tato stránka není žádným způsobem schválena Facebookem. FACEBOOK je registrovaná ochranná známka společnosti FACEBOOK, Inc. Tato stránka a její obsah jsou určeny výhradně pro informační a vzdělávací účely. Informace zde uvedené by neměly být považovány za lékařskou radu a nenahrazují konzultaci s kvalifikovaným zdravotnickým pracovníkem. Výsledky se mohou lišit a nejsou zaručeny. Před zahájením jakékoli nové zdravotní léčby se vždy poraďte se svým lékařem.
+            </div>
+            
+            <p>
+                <a href="./privacy.html">Zásady ochrany osobních údajů</a> | 
+                <a href="./terms.html">Podmínky používání</a> | 
+                <a href="mailto:francisco@carneirodesouza.com.br">Kontakt</a>
+            </p>
+            
+            <div class="company-info">
+                C.S.NUTRACEUTICOS COMERCIO, IMPORTACAO, EXPORTACAO E DISTRIBUICAO DE SUPLEMENTOS ALIMENTARES E NUTRICIONAIS LTDA<br>
+                CNPJ: 33.696.614/0001-09<br>
+                RUA RUI BARBOSA, 95, CONJ 82, BELA VISTA, SAO PAULO, SP
+            </div>
+            
+            <p style="margin-top: 20px;">&copy; 2024 Všechna práva vyhrazena.</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://lp.thirtytwof.shop/pretrack.js?rtkcmpid=6a55301a3f2abd3dd06053a2"></script>
+</body>
+</html>
